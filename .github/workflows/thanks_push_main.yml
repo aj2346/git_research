@@ -1,0 +1,11 @@
+name: thanks-push
+on: push
+jobs:
+ my-job:
+   runs-on: ubuntu-latest
+   steps:
+   - name: my-step
+     run: echo "Thanks for Collaborating"
+
+
+
